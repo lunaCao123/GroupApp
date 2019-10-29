@@ -6,4 +6,9 @@
     <color name="goldYellow">#DDBF58</color>
     <color name="white">#FFFFFF</color>
     <color name="palegoldYellow">#F0C530</color>
+    <color name="Red">#C91F1F</color>
+    <color name="Black">#000000</color>
+    <color name="Orange">#F57F17</color>
+    <color name="Yellow">#FFEA00</color>
+    <color name="paleBlue">#00B0FF</color>
 </resources>

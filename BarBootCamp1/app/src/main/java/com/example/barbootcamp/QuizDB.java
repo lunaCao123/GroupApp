@@ -16,4 +16,18 @@ public class QuizDB {
     }
 
     private static final HashMap<Integer, Quiz> quizzes = new HashMap<>();
+
+   // static {
+     //   quizzes.put(1, new Quiz(
+       //         1,
+         //       "Beer and Wine Quiz",
+                //TODO: make questions for quizzes
+                //TODO: figure out how to refernce questionDB within the QuizDB class
+               // BeerQuestion1,
+                //BeerQuestion2,
+               // BeerQuestion3,
+               // WineQuestion4,
+               // WineQuestion5
+     //   ));
+    }
 }

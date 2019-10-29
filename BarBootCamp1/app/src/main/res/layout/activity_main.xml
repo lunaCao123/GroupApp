@@ -75,6 +75,7 @@
         android:layout_marginTop="85dp"
         android:background="@color/colorPrimary"
         android:contentDescription="@string/start_app"
+        android:onClick="setStartButton"
         android:scaleType="fitXY"
         app:layout_constraintStart_toEndOf="@+id/welcomePage_userNameEditText"
         app:layout_constraintTop_toBottomOf="@+id/welcomePage_welcomeText"

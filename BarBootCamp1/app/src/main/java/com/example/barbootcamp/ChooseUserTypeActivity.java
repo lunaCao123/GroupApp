@@ -23,7 +23,7 @@ public class ChooseUserTypeActivity extends AppCompatActivity {
         String user = MainActivity.userName;
         userType_userNameText.setText(user);
         userType_image = findViewById(R.id.userTypePage_image);
-        userType_image.setImageResource(R.drawable.ic_martiniglass_foreground);
+        userType_image.setImageResource(R.drawable.ic_cocktail_glass_with_lemon_slice_svgrepo_com);
 
     }
     public void setFunBtnAction(View view){

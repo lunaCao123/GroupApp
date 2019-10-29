@@ -18,6 +18,6 @@ public class QuestionBank {
     private static final HashMap<Integer, Question> questions = new HashMap<>();
 
     static {
-        questions.put()
+
     }
 }

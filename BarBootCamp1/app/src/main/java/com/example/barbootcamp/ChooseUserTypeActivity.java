@@ -2,13 +2,36 @@ package com.example.barbootcamp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class ChooseUserTypeActivity extends AppCompatActivity {
+    public TextView userType_userNameText;
+    public ImageView userType_image;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_user_type);
+
+        userType_userNameText = findViewById(R.id.userTypePage_userNameText);
+        String user = MainActivity.userName;
+        userType_userNameText.setText(user);
+        userType_image = findViewById(R.id.userTypePage_image);
+        userType_image.setImageResource(R.drawable.ic_martiniglass_foreground);
+
+    }
+    public void setFunBtnAction(View view){
+        Intent intent = new Intent(this,FunActivityHomepage.class);
+        startActivity(intent);
+    }
+    public void setBartenderBtnAction(View view){
+        Intent intent = new Intent(this,BartenderLearningHomepage.class);
+        startActivity(intent);
     }
 }

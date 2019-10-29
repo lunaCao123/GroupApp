@@ -24,15 +24,15 @@ public class MainActivity extends AppCompatActivity {
         logoImage.setImageResource(R.drawable.ic_cocktail_glass_with_a_orange_slice_svgrepo_com);
 
         userNameEditText = findViewById(R.id.welcomePage_userNameEditText);
-        userName = userNameEditText.getText().toString();
+
 
         startButton = findViewById(R.id.welcomePage_startButton);
         startButton.setImageResource(R.drawable.ic_arrow_forward_gold);
 
     }
     public void setStartButton(View view){
+        userName = userNameEditText.getText().toString();
         Intent intent = new Intent(this, ChooseUserTypeActivity.class);
-        intent.putExtra("userName", userName);
         startActivity(intent);
     }
 }

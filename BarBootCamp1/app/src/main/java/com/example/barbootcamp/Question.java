@@ -1,7 +1,9 @@
 package com.example.barbootcamp;
 
 public class Question {
-    public long questionID;
+    public int questionID;
+    public int topicID;
+    public int questionNumber;
     public String question;
     public String answer;
     public String option1;
@@ -9,7 +11,9 @@ public class Question {
     public String option3;
     public String option4;
 
-    public Question (long questionID,
+    public Question (int questionID,
+                     int topicID,
+                     int questionNumber,
                      String question,
                      String answer,
                      String option1,
@@ -17,6 +21,8 @@ public class Question {
                      String option3,
                      String option4) {
         this.questionID = questionID;
+        this.topicID = topicID;
+        this.questionNumber = questionNumber;
         this.question = question;
         this.answer = answer;
         this.option1 = option1;
@@ -25,9 +31,17 @@ public class Question {
         this.option4 = option4;
     }
 
-    public long getQuestionID() { return questionID; }
+    public int getQuestionID() { return questionID; }
 
-    public void setQuestionID(long questionID) { this.questionID = questionID; }
+    public void setQuestionID(int questionID) { this.questionID = questionID; }
+
+    public int getTopicID() { return topicID; }
+
+    public void setTopicID(int topicID) { this.topicID = topicID; }
+
+    public int getQuestionNumber() {return questionNumber; }
+
+    public void setQuestionNumber(int questionNumber) { this.questionNumber = questionNumber; }
 
     public String getQuestion() { return question; }
 

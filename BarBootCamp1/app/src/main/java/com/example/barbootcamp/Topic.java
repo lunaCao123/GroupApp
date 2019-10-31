@@ -9,8 +9,9 @@ public class Topic {
     private String detail2;
     private String detail3;
     private int imageDrawableId;
+    private String quizName;
 
-    public Topic (long topicID, String topicName, String level, String detail1, String detail2, String detail3, int imageDrawableId) {
+    public Topic (long topicID, String topicName, String level, String detail1, String detail2, String detail3, int imageDrawableId, String quizName) {
         this.topicID = topicID;
         this.topicName = topicName;
         this.level = level;
@@ -18,6 +19,7 @@ public class Topic {
         this.detail2 = detail2;
         this.detail3 = detail3;
         this.imageDrawableId = imageDrawableId;
+        this.quizName = quizName;
     }
 
     public long getTopicID() { return topicID; }
@@ -51,4 +53,8 @@ public class Topic {
     public void setImageDrawableId(int imageDrawableId) {
         this.imageDrawableId = imageDrawableId;
     }
+
+    public String getQuizName() { return quizName; }
+
+    public void setQuizName(String quizName) { this.quizName = quizName; }
 }

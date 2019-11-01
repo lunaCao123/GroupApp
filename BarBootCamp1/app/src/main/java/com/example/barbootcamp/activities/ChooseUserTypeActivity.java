@@ -1,13 +1,14 @@
-package com.example.barbootcamp;
+package com.example.barbootcamp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.barbootcamp.R;
 
 public class ChooseUserTypeActivity extends AppCompatActivity {
     public TextView userType_userNameText;
@@ -27,11 +28,11 @@ public class ChooseUserTypeActivity extends AppCompatActivity {
 
     }
     public void setFunBtnAction(View view){
-        Intent intent = new Intent(this,FunActivityHomepage.class);
+        Intent intent = new Intent(this, FunActivityHomepage.class);
         startActivity(intent);
     }
     public void setBartenderBtnAction(View view){
-        Intent intent = new Intent(this,BartenderLearningHomepage.class);
+        Intent intent = new Intent(this, BartenderLearningHomepage.class);
         startActivity(intent);
     }
 }

@@ -1,4 +1,7 @@
-package com.example.barbootcamp;
+package com.example.barbootcamp.model;
+
+import com.example.barbootcamp.R;
+import com.example.barbootcamp.model.Topic;
 
 import java.util.ArrayList;
 import java.util.Arrays;

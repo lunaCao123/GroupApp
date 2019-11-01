@@ -1,4 +1,4 @@
-package com.example.barbootcamp;
+package com.example.barbootcamp.model;
 
 public class Topic {
 

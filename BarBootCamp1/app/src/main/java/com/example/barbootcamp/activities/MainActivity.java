@@ -1,4 +1,4 @@
-package com.example.barbootcamp;
+package com.example.barbootcamp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+
+import com.example.barbootcamp.R;
+import com.example.barbootcamp.activities.ChooseUserTypeActivity;
 
 public class MainActivity extends AppCompatActivity {
     public ImageButton startButton;

@@ -1,14 +1,16 @@
-package com.example.barbootcamp;
+package com.example.barbootcamp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class BartenderLearningHomepage extends AppCompatActivity {
+import com.example.barbootcamp.R;
+
+public class FunActivityHomepage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bartender_learning_homepage);
+        setContentView(R.layout.activity_fun_homepage);
     }
 }

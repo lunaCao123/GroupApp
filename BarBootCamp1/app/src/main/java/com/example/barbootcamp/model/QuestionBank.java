@@ -1,4 +1,6 @@
-package com.example.barbootcamp;
+package com.example.barbootcamp.model;
+
+import com.example.barbootcamp.model.Question;
 
 import java.util.ArrayList;
 import java.util.Arrays;

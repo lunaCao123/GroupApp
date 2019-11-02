@@ -14,4 +14,9 @@
     <string name="topic_level">Topic Level</string>
     <string name="cocktail_name">Cocktail Name</string>
     <string name="cocktail_level">Cocktail Level</string>
+    <string name="quiz_question">Question </string>
+    <string name="quiz_questionID">no</string>
+    <string name="quiz_answer">sample answer</string>
+    <string name="sumbit_btn">Submit</string>
+    <string name="cancel_btn">Cancel</string>
 </resources>

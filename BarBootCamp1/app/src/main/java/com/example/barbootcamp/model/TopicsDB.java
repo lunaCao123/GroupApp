@@ -83,17 +83,39 @@ public class TopicsDB {
                 "\n" +
                         "Ageing matters because much of the flavours associated with whisky comes form the caramelized, charred wood it's aged in. Most whiskies are aged for a minimum of three years, giving them its colour. Others can sit in a cask for decades, taking in more and more flavour the whole time. \n" +
                         "\n" +
-                        "Most whiskies are distilled in a way that lend them to be enjoyed on their own, but bourbons pair very well with different colas and soda water and scotch mixes well with ginger ale and seltzers.",
+                        "Most whiskies are distilled in a way that lend them to be enjoyed on their own, but bourbons pair very well with different colas and soda water and scotch mixes well with ginger ale and seltzers. Classic whisky cocktails include the Old Fashioned or a Whisky Sour. ",
              R.drawable.vodka,
-                "Vodka, Gin and Whiskey Quiz"
+                "Vodka, Gin and Whisky Quiz"
         ));
         topics.put(3, new Topic(
                 3,
                 "Rum, Tequila and Other Festive Spirits",
                 "Intermediate",
-                "This is where rum info will go. ",
-                "This is where tequila info will go. ",
-                "This is where info about Brandy will go. ",
+                "Rum is the finest application of sugar cane known to man. It's made form a distillate of either the fermented juice of sugar cane, sugar cane syrup or sugar cane molasses. THe origins of rum lie in the Caribbean islands, where modern rum production got its start and where island nations continue to produce the majority of the world's sugar cane spirits. \n" +
+                "\n" +
+                "There is no standard for making rum. All you have to do is start with sugar cane! Of course, it has to go through the normal process of making a spirit: fermentation, distillation, aging and blending. But how htese steps are done is up to the whim of the distiller. Most rum produced is made from molasses. Yeast and water are added to the base ingredient ot start the fermentation process. Molasses allows you to make light rums, gold rums, dark rums, flavoured, spiced, etc. \n" +
+                "\n" +
+                "The part of the sugar cane used in the process may also determine which type of rum it is. Sugar cane juice is used to produce Cachaca, the Brazilian variation of rum, used to make Caiprinha's. There are many expressions of rum, including French style (Agricole/Rhum), Spanish/Puerto Rican (Ron), English, Jamaican and Black Strap. Each has its own particular recipe and nuances that make it different from the rest. \n" +
+                "\n" +
+                "The recent rebirth of Tiki within contemporary cocktail culture has helped catalyze a resurgence in mixing drinks with rum. Arguably the most common rum cocktail is the Daiquiri. Rum is also popular in drinks like a Mojito, Dark and Stormy, and even a Mai Tai. ",
+                "Tequila is a much more interesting spirit tham most have assumed from their days of doing many shots of the spirit in their earlier years and is more versatile than most imagine. It is distilled from the juice of blue agave plants grown in five specific regions in Mexico: in the highland Jalisco state and in limited areas in four states around the city of Tequila.  \n " +
+                "\n" +
+                        " Tequila is made of the mature blue weber agave, which takes 8-12 years to become mature. Once they reach that point, they are then harvested by a jimador, who cuts all the sharp outer leaves off and creates large piles of the plant. The plants are then roasted or steamed to turn the starches and complex proteins into fermentable sugars. The plants are milled with a large stone to remove the pulp from the sweet juice.  \n" +
+                        "\n" +
+                        "There are three main types: blanco (white), reposado (rested) and anejo (aged). Generally, blanco is the lightest and brightest, with a clean, crisp sweetness and stronger agave character; reposado is darker and more flavourful, and anejo is the darkest, most robust and most complex, often with earthy vanilla, oak and whisky tasting notes from the aging process. \n" +
+                "\n" +
+                "Technically, there are only two variations of tequila: 100% agave and mixtos. As with bourbon, mixtos can contain no less than 51% agave, and the rest is made up of various sugars. The five bottled categories are Blanco (un-aged or slightly aged, white tequila), Oro (un-aged tequila that is flavoured with other adjuncts or mixed with aged tequila), Reposado (aged at least two months, but not more than a year), Anejo (aged at least a year, but no more than three) and Extra Anejo (aged at least 3 years). \n" +
+                "\n" +
+                "Tequila is extraordinarily versatile and just about any known cocktail can be converted into a tequila drink. They go well in Margarita and Paloma drinks, and cocktails made with strawberry, watermelon and other summer fruits also find their way into many drink menus. ",
+                "Brandy is an unsweetened spirit that's made by fermenting and then distilling fresh grape juice. Its made all over the world, either unaged and coloured with caramel before bottling, or aged in wooden casks. The brandy category encompasses high-end historical brandies including Cognac, Armagnac and Spanish brandy, as well as pisco from Peru and Chile, and grappa or marc. \n " +
+                "\n" +
+                "Cognac is made in the Cognac region of France, north of Bordeaux. The sub-regions are Grande Champagne, Champagne, Borderies, Fins Bois, Bons Bois and Bois Communs. For Cognac, wine made mainly from Ugni Blanc grapes is double distilled in small copepr pot stills heated by naked flames, and aged in the French Limousin oak barrels. VS Cognac must be aged a minimum of two years, VSOP a minimum of four years and XO a minimum of six years. \n" +
+                "\n" +
+                "Armagnac is produced in the Gascony region of France, south of Bordeaux. Armagnac production predates that of Cognac, but the region developed more slowly as transportation was not as advanced. Armagnac is aged mainly in French Limousin casks: VS for a minimum of one year, VSOP for a minimum of four years and XO for a minimum of five years. \n" +
+                "\n" +
+                "Pisco is produced in Chile and Peru from a distillate of aromatic grapes. Peruvians prefer to use a pot still, while Chileans like a continuous still. Pisco may be bottled unaged or lightly aged, and it's mainly designed to be enjoyed in cocktails like the Pisco Sour and Pisco punch. \n" +
+                "\n" +
+                "Vermouth is an aromatized wine flavoured with botanicals that may include flowers, plants, roots, seeds, bark spices and fortified with grape-based spirit. Depending on its style, vermouth may be served over ice with a citrus twist as an apertif before a meal, or used in cocktails like the classic Martini or Negroni. In a way, vermouth is a wine flavoured with brandy!",
                 R.drawable.tequila,
                 "Rum, Tequila and Other Festive Spirits Quiz"
         ));

@@ -7,32 +7,23 @@
     tools:context=".activities.BartenderLearningHomepage">
 
     <FrameLayout
-        android:id="@+id/fragmentTopBar_slot"
+        android:id="@+id/fragmentMain_slot"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/fragmentMain_slot"
+        android:layout_height="645dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNav_view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
     </FrameLayout>
 
-    <FrameLayout
-        android:id="@+id/fragmentMain_slot"
-        android:layout_width="416dp"
-        android:layout_height="544dp"
-        app:layout_constraintBottom_toTopOf="@+id/bottomNav_view"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-    </FrameLayout>
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNav_view"
-        android:layout_width="423dp"
+        android:layout_width="0dp"
         android:layout_height="85dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
